@@ -1,0 +1,28 @@
+{
+	"name": "romanzhyhulskyi",
+	"version": "0.0.1",
+	"description": "Roman Zhyhulskyi CV project Frontend app",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx webpack --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mim3009/cv.git"
+	},
+	"keywords": [
+		"Roman",
+		"Zhyhulskyi"
+	],
+	"author": "Roman Zhyhulskyi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mim3009/cv/issues"
+	},
+	"homepage": "https://github.com/mim3009/cv#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"webpack": "^5.11.0",
+		"webpack-cli": "^4.2.0"
+	}
+}

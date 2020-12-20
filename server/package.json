@@ -1,0 +1,29 @@
+{
+	"name": "romanzhyhulskyi",
+	"version": "0.0.1",
+	"description": "Roman Zhyhulskyi CV project Server",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mim3009/cv.git"
+	},
+	"keywords": [
+		"Roman",
+		"Zhyhulskyi"
+	],
+	"author": "Roman Zhyhulskyi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mim3009/cv/issues"
+	},
+	"homepage": "https://github.com/mim3009/cv#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}
