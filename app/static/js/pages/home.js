@@ -1,3 +1,5 @@
+import 'scss/_home.scss';
+
 import Page from './page.js';
 
 class HomePage extends Page {
