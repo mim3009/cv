@@ -4,6 +4,7 @@
 body {
 	background-color: $light-gray;
 	height: calc(100vh - 16px);
+	//add fix for height for mobile
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 7%;
@@ -39,7 +40,7 @@ body {
 
 		.c-name {
 			font-family: 'Mella Nissa', 'Times New Roman';
-			font-size: 5em;
+			font-size: 4.2vw;
 			color: $light-gray;
 			user-select: none;
 
