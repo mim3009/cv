@@ -16,11 +16,11 @@ class HomePage extends Page {
 
 function initMarkup() {
 	document.addEventListener('DOMContentLoaded', () => {
-		const presenter = document.querySelector('.js-presenter');
+		const cover = document.querySelector('.js-cover');
 
-		presenter.addEventListener('animationend', (e) => {
+		cover.addEventListener('animationend', (e) => {
 			if (e.animationName === 'fadeOut') {
-				presenter.remove();
+				cover.remove();
 			}
 		});
 	});
