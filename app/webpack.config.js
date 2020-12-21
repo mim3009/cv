@@ -3,7 +3,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-	mode: 'production',
+	mode: 'development',
 	entry: {
 		home: './static/js/pages/home.js',
 	},
@@ -64,7 +64,7 @@ module.exports = {
 					chunks: 'all',
 				},
 				commons: {
-					test: /[\\/]src[\\/]/,
+					test: /[\\/]js[\\/]/,
 					name: 'commons',
 					chunks: 'all',
 				},
