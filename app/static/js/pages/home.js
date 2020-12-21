@@ -16,7 +16,13 @@ class HomePage extends Page {
 
 function initMarkup() {
 	document.addEventListener('DOMContentLoaded', () => {
-		console.log(`Hello from HP`);
+		const presenter = document.querySelector('.js-presenter');
+
+		presenter.addEventListener('animationend', (e) => {
+			if (e.animationName === 'fadeOut') {
+				presenter.remove();
+			}
+		});
 	});
 }
 
