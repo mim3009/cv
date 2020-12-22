@@ -43,6 +43,15 @@ module.exports = {
 				test: /\.s[ac]ss$/i,
 				use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
 			},
+			{
+				test: /\.(woff|woff2|ttf|otf)$/,
+				loader: 'file-loader',
+				options: {
+					name: '[name].[ext]',
+					outputPath: 'fonts',
+					publicPath: '/fonts',
+				},
+			},
 		],
 	},
 	plugins: [
@@ -52,11 +61,6 @@ module.exports = {
 		}),
 		new CopyPlugin({
 			patterns: [
-				{
-					from: '**/*',
-					to: 'fonts',
-					context: 'static/css/fonts',
-				},
 				{
 					from: '**/*',
 					to: '[name]/index.[ext]',

@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Mella Nissa';
+	font-weight: normal;
+	font-style: normal;
+	font-display: optional;
+	unicode-range: U+000-5FF;
+	src: local('Mella Nissa'), url('../fonts/mella-nissa.woff2') format('woff2'),
+		url('../fonts/mella-nissa.woff') format('woff'), url('../fonts/mella-nissa.ttf') format('truetype'),
+		url('../fonts/mella-nissa.otf') format('opentype');
+}
