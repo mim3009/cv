@@ -29,10 +29,10 @@ module.exports = {
 							[
 								'@babel/preset-env',
 								{
+									modules: 'commonjs',
 									useBuiltIns: 'usage',
-									corejs: {
-										version: 3,
-									},
+									loose: true,
+									corejs: 3,
 								},
 							],
 						],
