@@ -1,14 +1,15 @@
-@import '_globals';
 @import '_fonts';
+@import '_colors';
+@import '_images';
 @import '_animations';
 
 body {
-	background-color: $light-gray;
+	background-color: $lighter-gray;
 	height: calc(100vh - 16px);
 	//add fix for height for mobile
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 7%;
+	grid-template-rows: 1fr 64px;
 	gap: 0px 0px;
 	grid-template-areas:
 		'main'
@@ -22,6 +23,28 @@ body {
 
 	footer {
 		grid-area: footer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 1px solid $light-gray;
+
+		.c-social {
+			display: inline-block;
+			width: 48px;
+			height: 48px;
+		}
+
+		.c-instagram {
+			background-image: url($instagram);
+		}
+
+		.c-facebook {
+			background-image: url($facebook);
+		}
+
+		.c-linkedin {
+			background-image: url($linkedin);
+		}
 	}
 
 	.c-cover {
@@ -42,7 +65,7 @@ body {
 		.c-name {
 			font-family: 'Mella Nissa', 'Times New Roman';
 			font-size: 4.2vw;
-			color: $light-gray;
+			color: $lighter-gray;
 			user-select: none;
 
 			@media (prefers-reduced-motion: no-preference) {
