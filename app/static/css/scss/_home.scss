@@ -4,7 +4,7 @@
 @import '_animations';
 
 body {
-	background-color: $lighter-gray;
+	background-color: $eureka;
 	height: calc(100vh - 16px);
 	//add fix for height for mobile
 	display: grid;
@@ -26,7 +26,7 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		border-top: 1px solid $light-gray;
+		border-top: 1px solid $steam;
 
 		.c-social {
 			display: inline-block;
@@ -56,7 +56,7 @@ body {
 		right: 0;
 		justify-content: center;
 		align-items: center;
-		background-color: black;
+		background-color: $black;
 
 		@media (prefers-reduced-motion: no-preference) {
 			animation: fadeOut 2s cubic-bezier(0.6, 0, 0.8, 0.4) 3s;
@@ -65,7 +65,7 @@ body {
 		.c-name {
 			font-family: 'Mella Nissa', 'Times New Roman';
 			font-size: 4.2vw;
-			color: $lighter-gray;
+			color: $eureka;
 			user-select: none;
 
 			@media (prefers-reduced-motion: no-preference) {
