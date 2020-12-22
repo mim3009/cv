@@ -1,7 +1,9 @@
 @font-face {
 	font-family: 'Mella Nissa';
-	src: local('Mella Nissa'), url('./20193.woff2') format('woff2'), url('./20193.woff') format('woff'),
-		url('./20193.ttf') format('truetype'), url('./20193.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal;
+	font-display: fallback;
+	unicode-range: U+000-5FF;
+	src: local('Mella Nissa'), url('./mella-nissa.woff2') format('woff2'), url('./mella-nissa.woff') format('woff'),
+		url('./mella-nissa.ttf') format('truetype'), url('./mella-nissa.otf') format('opentype');
 }

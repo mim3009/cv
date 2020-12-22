@@ -35,7 +35,7 @@ body {
 		background-color: black;
 
 		@media (prefers-reduced-motion: no-preference) {
-			animation: fadeOut 2s ease 3s;
+			animation: fadeOut 2s cubic-bezier(0.6, 0, 0.8, 0.4) 3s;
 		}
 
 		.c-name {
