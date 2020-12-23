@@ -3,6 +3,7 @@
 	"short_name": "Roman Zhyhuslkyi",
 	"description": "Roman Zhyhulskyi CV",
 	"start_url": "/?homescreen=1",
+	"scope": "/",
 	"background_color": "#f6f5f3",
 	"theme_color": "#f6f5f3",
 	"display": "standalone",
