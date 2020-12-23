@@ -72,6 +72,11 @@ module.exports = {
 					to: 'images/[name].[ext]',
 					context: path.resolve(__dirname, 'static/images'),
 				},
+				{
+					from: './*.json',
+					to: '[name].[ext]',
+					context: path.resolve(__dirname, 'static'),
+				},
 			],
 		}),
 	],
