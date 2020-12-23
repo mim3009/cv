@@ -1,7 +1,7 @@
 {
-	"name": "Roman Zhyhuslkyi",
-	"short_name": "Roman Zhyhuslkyi",
-	"description": "Roman Zhyhulskyi CV",
+	"name": "Roman Zhyhulskyi",
+	"short_name": "Roman's CV",
+	"description": "Roman Zhyhulskyi's CV",
 	"start_url": "/?homescreen=1",
 	"scope": "/",
 	"background_color": "#f6f5f3",

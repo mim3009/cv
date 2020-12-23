@@ -1,7 +1,7 @@
 {
 	"name": "romanzhyhulskyi",
 	"version": "0.0.1",
-	"description": "Roman Zhyhulskyi CV project Frontend app",
+	"description": "Roman Zhyhulskyi's CV project Frontend app",
 	"main": "index.js",
 	"scripts": {
 		"start": "npx webpack --watch"
