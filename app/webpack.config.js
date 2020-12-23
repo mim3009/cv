@@ -1,6 +1,7 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlMinimizerPlugin = require('html-minimizer-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
@@ -64,7 +65,7 @@ module.exports = {
 				{
 					from: '**/*',
 					to: '[name]/index.[ext]',
-					context: 'static/html',
+					context: path.resolve(__dirname, 'static/html'),
 				},
 			],
 		}),
@@ -89,5 +90,11 @@ module.exports = {
 				},
 			},
 		},
+		minimizer: [
+			`...`,
+			new HtmlMinimizerPlugin({
+				parallel: true,
+			}),
+		],
 	},
 };
