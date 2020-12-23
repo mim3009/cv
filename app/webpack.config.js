@@ -67,6 +67,11 @@ module.exports = {
 					to: '[name]/index.[ext]',
 					context: path.resolve(__dirname, 'static/html'),
 				},
+				{
+					from: '**/*',
+					to: 'images/[name].[ext]',
+					context: path.resolve(__dirname, 'static/images'),
+				},
 			],
 		}),
 	],
