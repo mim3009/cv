@@ -1,9 +1,10 @@
 {
 	"name": "Roman Zhyhuslkyi",
 	"short_name": "Roman Zhyhuslkyi",
-	"start_url": "/",
-	"background_color": "#000000",
-	"theme_color": "#000000",
+	"description": "Roman Zhyhulskyi CV",
+	"start_url": "/?homescreen=1",
+	"background_color": "#f6f5f3",
+	"theme_color": "#f6f5f3",
 	"display": "standalone",
 	"orientation": "portrait",
 	"icons": [
