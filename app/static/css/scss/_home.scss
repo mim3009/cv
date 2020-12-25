@@ -4,28 +4,24 @@
 @import '_animations';
 
 body {
-	background-color: $eureka;
-	height: calc(100vh - 16px);
-	//add fix for height for mobile
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 64px;
-	gap: 0px 0px;
-	grid-template-areas:
-		'main'
-		'footer';
+	height: calc(100vh - 16px);
+	background-color: $eureka;
+	grid-template:
+		'main' 1fr
+		'footer' 64px;
 
 	main {
-		grid-area: main;
 		width: 100%;
 		height: 100%;
+		grid-area: main;
 	}
 
 	footer {
-		grid-area: footer;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		grid-area: footer;
 		border-top: 1px solid $steam;
 
 		.c-social {
@@ -48,14 +44,14 @@ body {
 	}
 
 	.c-cover {
-		display: flex;
-		width: 100%;
-		height: 100%;
 		position: fixed;
-		top: 0;
-		right: 0;
+		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: 0;
 		background-color: $black;
 
 		@media (prefers-reduced-motion: no-preference) {
