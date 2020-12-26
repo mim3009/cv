@@ -4,7 +4,8 @@
 	"description": "Roman Zhyhulskyi's CV project",
 	"main": "index.js",
 	"scripts": {
-		"postinstall": "bash ./scripts/postinstall.sh"
+		"postinstall": "bash ./scripts/postinstall.sh",
+		"start": "concurrently \"cd app && npm start\" \"cd server && npm start\""
 	},
 	"repository": {
 		"type": "git",
@@ -20,7 +21,9 @@
 		"url": "https://github.com/mim3009/cv/issues"
 	},
 	"homepage": "https://github.com/mim3009/cv#readme",
-	"dependencies": {
+	"dependencies": {},
+	"devDependencies": {
+		"concurrently": "^5.3.0",
 		"eslint": "^7.16.0",
 		"stylelint": "^13.8.0",
 		"stylelint-config-standard": "^20.0.0",
