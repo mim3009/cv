@@ -1,0 +1,30 @@
+{
+	"name": "romanzhyhulskyi",
+	"version": "0.0.1",
+	"description": "Roman Zhyhulskyi's CV project",
+	"main": "index.js",
+	"scripts": {
+		"start": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mim3009/cv.git"
+	},
+	"keywords": [
+		"Roman",
+		"Zhyhulskyi"
+	],
+	"author": "Roman Zhyhulskyi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mim3009/cv/issues"
+	},
+	"homepage": "https://github.com/mim3009/cv#readme",
+	"dependencies": {
+		"eslint": "^7.16.0",
+		"stylelint": "^13.8.0",
+		"stylelint-config-standard": "^20.0.0",
+		"stylelint-order": "^4.1.0",
+		"stylelint-scss": "^3.18.0"
+	}
+}
