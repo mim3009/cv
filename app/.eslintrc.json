@@ -9,7 +9,12 @@
         "sourceType": "module"
     },
     "rules": {
+        "array-bracket-spacing": "error",
         "block-scoped-var": "error",
+        "block-spacing": "error",
+        "brace-style": "error",
+        "camelcase": "error",
+        "comma-spacing": "error",
         "consistent-return": "error",
         "curly": "error",
         "default-case": "error",
@@ -22,7 +27,12 @@
             "error",
             "getBeforeSet"
         ],
+        "indent": ["error", "tab"],
+        "key-spacing": "error",
+        "keyword-spacing": "error",
         "max-classes-per-file": "error",
+        "max-depth": "error",
+        "max-len": ["error", { "code": 130 }],
         "no-alert": "error",
         "no-caller": "error",
         "no-constructor-return": "error",
@@ -30,8 +40,8 @@
         "no-eval": "error",
         "no-implicit-globals": "error",
         "no-implied-eval": "error",
+        "no-unreachable-loop": "error",
         "no-useless-return": "error",
-        "camelcase": "error",
         "no-var": "error",
         "no-useless-constructor": "error",
         "prefer-const": "error"
