@@ -5,7 +5,7 @@ echo '#!/bin/sh
 set -e
 
 npx eslint .
-npx stylelint "**/*.scss"' > .git/pre-commit
+npx stylelint "**/*.scss"' > .git/hooks/pre-commit
 
 cd app
 npm install
