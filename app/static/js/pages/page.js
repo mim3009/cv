@@ -3,6 +3,7 @@ class Page {
 		this.id = id;
 	}
 
+	/*eslint no-empty-function: "off" */
 	init() {}
 }
 
