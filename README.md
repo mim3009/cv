@@ -1,3 +1,5 @@
 # Mine CV
 
-To start app or server call `npm start` in each subfolder
+To install project run `npm install in root folder`
+
+To start app or server call `npm start` in the corresponding subfolder
