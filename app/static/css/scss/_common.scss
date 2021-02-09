@@ -1,0 +1,44 @@
+@import '_fonts';
+@import '_colors';
+@import '_images';
+
+body {
+	display: grid;
+	height: calc(100vh - 16px);
+	background-color: $eureka;
+	grid-template:
+		'main' 1fr
+		'footer' 64px;
+
+	main {
+		width: 100%;
+		height: 100%;
+		grid-area: main;
+	}
+
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		grid-area: footer;
+		border-top: 1px solid $steam;
+
+		.c-social {
+			display: inline-block;
+			width: 48px;
+			height: 48px;
+		}
+
+		.c-instagram {
+			background-image: url($instagram);
+		}
+
+		.c-facebook {
+			background-image: url($facebook);
+		}
+
+		.c-linkedin {
+			background-image: url($linkedin);
+		}
+	}
+}
